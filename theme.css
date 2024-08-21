@@ -18,12 +18,19 @@ body {
 	--toggle-thumb-radius: 3px;
 	--slider-thumb-radius: 3px;
 	--font-text-theme: monospace;
+
+}
+
+.theme-dark {
+	--background-primary: #120f0b;
+	--background-secondary: #120f0b;
+
 	--ribbon-background: rgba(94, 82, 69, 0.507);
 	--ribbon-background-collapsed: #120f0b;
 	--titlebar-background: rgb(94, 82, 69);
 	--titlebar-background-focused: rgb(94, 82, 69);
 
-	--canvas-background	: rgb(0, 0, 0);
+	--canvas-background	: rgba(26, 21, 18, 0.664);
 	--canvas-card-label-color	: rgb(92, 92, 92);
 	
 	--status-bar-background	: rgba(94, 82, 69, 0.527);
@@ -35,7 +42,6 @@ body {
 	--link-external-color	: rgb(78, 140, 168);
 	--link-hover-color: #fff59a;
 	--link-external-color-hover	: rgb(255, 245, 151);
-	--link-decoration	: dashed;
 
 	--code-background	: rgb(39, 32, 26);
 	--code-white-space	: pre-wrap;
@@ -64,21 +70,65 @@ body {
 	--tag-background: rgba(94, 82, 69, 0.37);
 	--tag-radius	: 3px;
 
-	--embed-block-shadow-hover	: 0 0 0 1px rgb(255, 230, 0);
 	
 	/* --status-bar-position: left; */
 	--canvas-dot-pattern: 	rgba(70, 58, 33);
 
-}
-
-.theme-dark {
-	--background-primary: #120f0b;
-	--background-secondary: #120f0b;
   }
   
   .theme-light {
-	--background-primary: #ECE4FF;
-	--background-secondary: #D9C9FF;
+	--background-primary: #ffffff;
+	--background-secondary: rgb(255, 230, 204);
+
+	--ribbon-background: rgb(255, 230, 204);
+	--ribbon-background-collapsed: rgb(255, 230, 204);
+	--titlebar-background: rgb(255, 230, 204);
+	--titlebar-background-focused: rgb(255, 230, 204);
+
+	--canvas-background	: rgba(255, 255, 255, 0.664);
+	--canvas-card-label-color	: rgb(92, 92, 92);
+	
+	--status-bar-background	: rgba(255, 230, 204, 0.562);
+	--divider-width	: 0.5px;
+	--tab-background-active	: rgb(255, 255, 255);
+	--tab-curve	: 3px;
+	--tab-radius-active	: 1px;
+	--link-color: rgb(161, 161, 161);
+	--link-external-color	: rgb(78, 140, 168);
+	--link-hover-color: rgb(134, 130, 87);
+	--link-external-color-hover	: rgb(134, 130, 87);
+
+	--code-background	: rgb(255, 229, 206);
+	--code-white-space	: pre-wrap;
+	--code-size	: 12px;
+	--code-normal: rgb(122, 122, 122);	
+	--code-comment: grey;	
+	--code-function	: rgb(59, 70, 0);
+	--code-important	: rgb(255, 230, 0);
+	--code-keyword	: rgb(1, 145, 125);
+	--code-operator	: rgb(110, 110, 110);
+	--code-property	: rgb(128, 98, 209);
+	--code-string	: rgb(3, 148, 51);
+	--code-value	: rgb(255, 0, 149);
+
+	--embed-background: rgb(241, 241, 241);
+
+	--blockquote-background-color: rgba(39, 39, 39, 0.493);
+
+	--inline-title-color: rgb(241, 206, 88);
+
+	--list-marker-color	: rgb(255, 166, 0);
+
+	--table-background	: rgba(184, 184, 184, 0.137);
+	--table-header-color: rgb(141, 134, 131);
+
+	--tag-background: rgba(255, 255, 255, 0.37);
+	--tag-color:rgb(255, 170, 0);
+	--tag-radius	: 3px;
+	
+	/* --status-bar-position: left; */
+	--canvas-dot-pattern: 	rgba(70, 58, 33);
+
   }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -94,8 +144,8 @@ svg * {
 
 .menu {
 	padding: var(--size-2-1);
-	color: rgb(141, 134, 131);
-	background-color: rgba(39, 32, 26, 0.63);
+	color: rgb(75, 58, 33);
+	background-color: rgba(161, 134, 109, 0.63);
 	backdrop-filter: blur(2px);
 }
 
