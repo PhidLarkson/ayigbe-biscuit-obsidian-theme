@@ -1,3 +1,19 @@
+# AYIGBE BISCUIT OBSIDIAN THEME
+
+An obsidian theme inspired by the Ayigbe biscuit from one of Ghana's biggest language group, the [Ewes](https://en.wikipedia.org/wiki/Ewe_people?variant=zh-cn)
+
+![image](https://github.com/user-attachments/assets/af598c5c-0ebe-4114-b1bc-58350c37d125)
+
+
+
+- LIGHT MODE
+  ![image](https://github.com/user-attachments/assets/0e0deff3-1b34-415f-930c-77264e1a0326)
+
+
+- DARK MODE
+![image](https://github.com/user-attachments/assets/e544e0f1-5818-4255-8a9b-6f42a78857eb)
+
+
 This is a sample theme for Obsidian ([https://obsidian.md](https://obsidian.md/)).
 
 ## First Time publishing a theme?
