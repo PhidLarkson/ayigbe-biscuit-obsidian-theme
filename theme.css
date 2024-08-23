@@ -74,6 +74,12 @@ body {
 	/* --status-bar-position: left; */
 	--canvas-dot-pattern: 	rgba(70, 58, 33);
 
+	--graph-node: rgb(255, 255, 255);
+	--graph-node-unresolved	: rgb(255, 0, 0);
+	--graph-node-focused	: rgb(0, 132, 255);
+	--graph-node-tag	: rgb(95, 90, 74);
+	--graph-node-attachment	: rgb(43, 255, 0);
+	--graph-line	: rgba(255, 237, 197, 0.288);
   }
   
   .theme-light {
@@ -128,6 +134,13 @@ body {
 	
 	/* --status-bar-position: left; */
 	--canvas-dot-pattern: 	rgba(70, 58, 33);
+
+	--graph-node: rgb(255, 255, 255);
+	--graph-node-unresolved	: rgb(255, 0, 0);
+	--graph-node-focused	: rgb(0, 132, 255);
+	--graph-node-tag	: rgb(95, 90, 74);
+	--graph-node-attachment	: rgb(43, 255, 0);
+	--graph-line	: rgba(255, 237, 197, 0.288);
 
   }
 
